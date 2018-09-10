@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.edu.cap</groupId>
-  <artifactId>springmvc1</artifactId>
+  <artifactId>springmvc2</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>springmvc1 Maven Webapp</name>
+  <name>springmvc2 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
