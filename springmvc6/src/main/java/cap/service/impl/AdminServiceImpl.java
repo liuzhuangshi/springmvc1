@@ -31,5 +31,25 @@ public class AdminServiceImpl implements AdminService {
         pageBean.setTotalRecords(totalCount);
         return pageBean;
     }
+
+    @Override
+    public Admin findAdmin(int id) {
+        return adminDAO.findAdmin(id);
+    }
+
+    @Override
+    public int update(int id, Admin admin) {
+        return adminDAO.update(id, admin);
+    }
+
+    @Override
+    public int delete(int id) {
+        return adminDAO.delete(id);
+    }
+
+    @Override
+    public int insert(Admin admin) {
+        return adminDAO.insert(admin);
+    }
 }
 

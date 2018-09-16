@@ -22,14 +22,16 @@
         <td width="150">Password</td>
         <td width="150">Edit</td>
         <td width="150">Delete</td>
+        <td width="150">Add</td>
     </tr>
     <c:forEach items="${pageBean.list}" var="admin">
         <tr>
             <td><c:out value="${admin.id}"/></td>
             <td><c:out value="${admin.username}"/></td>
             <td><c:out value="${admin.password}"/></td>
-            <td><a href="edit?id=${admin.id}">Edit</a></td>
-            <td><a href="del?id=${admin.id}">Delete</a></td>
+            <td><a href="update?id=${admin.id}">Edit</a></td>
+            <td><a href="delete?id=${admin.id}">Delete</a></td>
+            <td><a href="insert?id=${admin.id}">Insert</a></td>
         </tr>
     </c:forEach>
 
@@ -43,6 +45,7 @@
                     href="list?pageNo=${pageBean.getNextPageNo()}">下一页</a>
             <a
                     href="list?pageNo=${pageBean.getNextPageNo()}">尾页</a>
+
 
         </td>
     </tr>

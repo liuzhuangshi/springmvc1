@@ -3,5 +3,6 @@
 <body>
 <h2>Hello World!</h2>
 <a href="login">登录</a>
+<a href="list">list</a>
 </body>
 </html>
